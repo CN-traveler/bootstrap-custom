@@ -1,0 +1,45 @@
+.bi-eye.active::before {
+  content: "\f340";
+}
+
+.bi-heart.active::before {
+  content: "\f415";
+}
+
+.bi-heartbreak.active::before {
+  content: "\f770";
+}
+
+.bi-funnel-fill.collapsed::before {
+  content: '\f3e1';
+}
+
+.bi-plus-circle-fill.collapsed::before {
+  content: '\f4fa';
+}
+
+.bi-caret-left.active::before {
+  content: "\f22d";
+}
+
+.bi-caret-right.active::before {
+  content: "\f231";
+}
+
+.bi-sun.active::before {
+  content: "\f5a1";
+}
+
+.bi-moon-stars.active::before {
+  content: "\f495";
+}
+
+.active + .text-truncate {
+  overflow: inherit;
+  text-overflow: inherit;
+  white-space: inherit;
+}
+
+.text-truncate {
+  line-height: 38px;
+}
